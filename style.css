@@ -1,0 +1,42 @@
+.div-width{
+    width: 28vw;
+    background-color: rgb(250, 250, 255)
+}
+.div-padding{
+    padding-right: 4rem !important;
+    padding-left: 4rem !important;
+}
+.subheadline{
+    margin-bottom: 1rem;
+}
+.input-input{
+    color: rgb(98, 98, 255) !important;
+    font-weight: 500 !important;
+    border-right: none !important;
+    padding-right: 7px !important;
+    line-height: 24px !important;
+    font-size: 28px !important; 
+}
+.input-input:focus{
+        box-shadow: none !important;
+    }
+    input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.input-group:focus-within{
+    border: 2.3px solid !important;
+    border-color: rgb(98, 98, 255) !important;
+}
+.input-span{
+    background-color: white !important; 
+    height: 100%;
+    font-size: 18px !important;
+    color: gray !important;
+    padding-left: 0 !important;
+}
+.deactivated{
+    background-color: lightgray !important;
+    color: #212529 !important;
+}
