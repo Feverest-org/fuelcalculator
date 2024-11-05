@@ -21,7 +21,7 @@
                     <div class="row">
                         <div class="col">
                             <div class="input-group mb-3 border rounded shadow">
-                                <input type="number" id="hrs_dur" onchange="calcDuration(); calcFuel()" min="0" class="form-control  input-input text-end border-0">
+                                <input type="number" id="hrs_dur" onkeyup="calcDuration(); calcFuel()" min="0" class="form-control  input-input text-end border-0">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text input-span border-0">hrs</span>
                                 </div>
@@ -29,7 +29,7 @@
                         </div>
                         <div class="col">
                             <div class="input-group mb-3 border rounded shadow">
-                                <input type="number" id="min_dur" onchange="calcDuration(); calcFuel()" min="0" step="1" class="form-control  input-input text-end border-0">
+                                <input type="number" id="min_dur" onkeyup="calcDuration(); calcFuel()" min="0" step="1" class="form-control  input-input text-end border-0">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text input-span border-0">min</span>
                                 </div>
@@ -41,7 +41,7 @@
             <div class="my-4">
                 <h5 class="subheadline">Lap Time</h5>
                 <div class="input-group mb-3 border rounded shadow">
-                    <input type="number" id="lap_time" onchange="calcLaptime(); calcFuel()" class=" input-input form-control text-end border-0" min="0">
+                    <input type="number" id="lap_time" onkeyup="calcLaptime(); calcFuel()" class=" input-input form-control text-end border-0" min="0">
                     <div class="input-group-prepend">
                             <span class="input-group-text input-span border-0">MM.ss</span>
                     </div>
@@ -50,7 +50,7 @@
             <div class="my-4">
                 <h5 class="subheadline">Lap Consumption</h5>   
                 <div class="input-group mb-3 border rounded shadow">
-                    <input type="number" id="lap_cons" onchange="calcFuel()" class=" input-input form-control text-end border-0" min="0">
+                    <input type="number" id="lap_cons" onkeyup="calcFuel()" class=" input-input form-control text-end border-0" min="0">
                     <div class="input-group-prepend">
                             <span class="input-group-text input-span border-0">liters</span>
                     </div>
