@@ -9,6 +9,9 @@
     padding-right: 4rem !important;
     padding-left: 4rem !important;
 }
+.headline{
+    cursor: pointer;
+}
 .subheadline{
     margin-bottom: 1rem;
 }

@@ -54,3 +54,13 @@ function calcFuel(){
         console.log("fuel per race: " + Math.ceil(this.fuel))
     }
 }
+
+function clearInput(){
+    // cleart the numbers which are given by the users input
+
+    document.getElementById("hrs_dur").value = null;
+    document.getElementById("min_dur").value = null;
+    document.getElementById("lap_time").value = null;
+    document.getElementById("lap_cons").value = null;
+    document.getElementById("fuel_cons").value = 0;
+}
